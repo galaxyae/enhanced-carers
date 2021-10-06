@@ -1,0 +1,65 @@
+.frame {
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+  transition: 0.3s;
+}
+
+.cards {
+  box-shadow: 0 4px 4px rgba(0,0,0, 0.1);
+  transition: 0.3s;
+}
+
+.add {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.header{
+  background-color: black;
+}
+
+.text{
+  color: black;
+}
+
+.action{
+   width: 20px;
+}
+
+.input{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#table td{
+  padding: 1;
+  margin:0;
+}
+
+.card{
+  max-width : 95%; 
+  border-radius: 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+input {
+  text-transform: none;
+}
+
+.lgout:hover {
+  background-color: #000;
+}
